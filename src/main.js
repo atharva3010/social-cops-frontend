@@ -5,8 +5,9 @@ import App from './App'
 import router from './router'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
-import Typed from 'typed.js';
+import VueTypedJs from 'vue-typed-js'
 
+Vue.use(VueTypedJs)
 Vue.use(Vuetify)
 
 Vue.config.productionTip = false

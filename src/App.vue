@@ -6,7 +6,7 @@
           <authentication></authentication>
           <v-toolbar flat app dark inverted-scroll dense color="#212121">
             <v-avatar size="40px"><img src="./assets/25.jpg"></v-avatar>
-            <v-toolbar-title class="font-weight-light" id="yellow">Sachin Tendulkar</v-toolbar-title>
+            <v-toolbar-title class="font-weight-regular" id="yellow">Sachin Tendulkar</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-toolbar-items class="hidden-sm-and-down">
               <v-btn flat id="yellow">Home</v-btn>
