@@ -4,9 +4,9 @@
       <v-flex xs12>
         <v-flex>
           <div id="header">
-            <vue-typed-js :loop="true" :startDelay="1000" :strings="['Sachin Tendulkar', 'A former Indian cricketer', 'The God of Cricket', 'Master Blaster', 'Widely regarded as,', 'The greatest cricketer', 'Of all time.']">
+            <!-- <vue-typed-js :loop="true" :startDelay="1000" :strings="['Sachin Tendulkar', 'A former Indian cricketer', 'The God of Cricket', 'Master Blaster', 'Widely regarded as,', 'The greatest cricketer', 'Of all time.']">
               <h1 id="centered" class="typing" style="font-size:130px; width:100%;"></h1>
-            </vue-typed-js>
+            </vue-typed-js> -->
           </div>
         </v-flex>
         <div id="body">
