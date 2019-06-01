@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "d3": "^5.9.2",
     "material-design-icons-iconfont": "^5.0.1",
     "typed.js": "^2.0.10",
     "vue": "^2.5.2",
