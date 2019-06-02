@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-container-fluid>
-      <v-layout>
+      <v-layout wrap="">
         <v-flex>
           <authentication></authentication>
           <v-toolbar flat app dark inverted-scroll dense color="#212121">

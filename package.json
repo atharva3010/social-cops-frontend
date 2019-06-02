@@ -10,7 +10,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "chart.js": "^2.8.0",
     "d3": "^5.9.2",
+    "hchs-vue-charts": "^1.2.8",
     "material-design-icons-iconfont": "^5.0.1",
     "typed.js": "^2.0.10",
     "vue": "^2.5.2",
