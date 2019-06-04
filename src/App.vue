@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-container-fluid>
-      <v-layout wrap="">
+      <v-layout wrap>
         <v-flex>
           <authentication></authentication>
           <v-toolbar flat app dark inverted-scroll dense color="#212121">
@@ -10,11 +10,9 @@
             <v-spacer></v-spacer>
             <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
             <v-toolbar-items class="hidden-sm-and-down">
-              <v-btn flat id="yellow">Home</v-btn>
-              <v-btn flat id="yellow">Problem</v-btn>
-              <v-btn flat id="yellow">Analysis</v-btn>
-              <v-btn flat id="yellow">About</v-btn>
-              <v-btn flat id="yellow">Contact</v-btn>
+              <v-btn flat id="yellow" href="#">Home</v-btn>
+              <v-btn flat id="yellow" href="#body">Analysis</v-btn>
+              <v-btn flat id="yellow" href="#about">About</v-btn>
             </v-toolbar-items>
           </v-toolbar>
           <v-toolbar flat app dark scroll-off-screen dense color="transparent">
@@ -23,35 +21,27 @@
             <v-spacer></v-spacer>
             <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
             <v-toolbar-items class="hidden-sm-and-down">
-              <v-btn flat id="yellow">Home</v-btn>
-              <v-btn flat id="yellow">Problem</v-btn>
-              <v-btn flat id="yellow">Analysis</v-btn>
-              <v-btn flat id="yellow">About</v-btn>
-              <v-btn flat id="yellow">Contact</v-btn>
+              <v-btn flat id="yellow" href="#">Home</v-btn>
+              <v-btn flat id="yellow" href="#body">Analysis</v-btn>
+              <v-btn flat id="yellow" href="#about">About</v-btn>
             </v-toolbar-items>
           </v-toolbar>
-          <v-navigation-drawer class="hidden-md-and-up" absolute temporary v-model="drawer" dark>
-            <v-list>
-              <v-list-tile>
-                <v-btn flat id="yellow" block>Home</v-btn>
-              </v-list-tile>
-              <v-list-tile>
-                <v-btn flat id="yellow" block>Problem</v-btn>
-              </v-list-tile>
-              <v-list-tile>
-                <v-btn flat id="yellow" block>Analysis</v-btn>
-              </v-list-tile>
-              <v-list-tile>
-                <v-btn flat id="yellow" block>About</v-btn>
-              </v-list-tile>
-              <v-list-tile>
-                <v-btn flat id="yellow" block>Contact</v-btn>
-              </v-list-tile>
-            </v-list>
-          </v-navigation-drawer>
           <home></home>
         </v-flex>
       </v-layout>
+      <v-navigation-drawer class="hidden-md-and-up" absolute temporary v-model="drawer" dark style="position:fixed;">
+        <v-list>
+          <v-list-tile>
+            <v-btn flat id="yellow" href="#header" block style="padding:20px; top:50%">Home</v-btn>
+          </v-list-tile>
+          <v-list-tile>
+            <v-btn flat id="yellow" href="#body" block style="padding:20px; top:50%">Analysis</v-btn>
+          </v-list-tile>
+          <v-list-tile>
+            <v-btn flat id="yellow" href="#about" block style="padding:20px; top:50%">About</v-btn>
+          </v-list-tile>
+        </v-list>
+      </v-navigation-drawer>
     </v-container-fluid>
   </v-app>
 </template>
@@ -76,5 +66,8 @@ export default {
 <style>
 #yellow{
   color: yellow;
+}
+html {
+  scroll-behavior: smooth;
 }
 </style>

@@ -8,10 +8,13 @@ import 'vuetify/dist/vuetify.min.css'
 import VueTypedJs from 'vue-typed-js'
 import "chart.js"
 import "hchs-vue-charts"
+import '@fortawesome/fontawesome-free/css/all.css'
 Vue.use(window.VueCharts)
 
 Vue.use(VueTypedJs)
-Vue.use(Vuetify)
+Vue.use(Vuetify, {
+  iconfont: 'fa'
+})
 
 Vue.config.productionTip = false
 
