@@ -35,11 +35,13 @@
         </v-layout>
         <div id="about" style="padding:20px;">
           <div>
+            <div style="float:right; clear:none; padding:20px;" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="atharva-sharma-802181162"><a class="LI-simple-link" href='https://in.linkedin.com/in/atharva-sharma-802181162?trk=profile-badge'>Atharva Sharma</a></div>
             <h1 class="display-3">
-              About Me:
+              About Me: 
             </h1>
+            <div>
               <p>
-                I am a Software developer having experience with Product Management and Marketing.
+                I am <b>Atharva Sharma</b>, a Software developer having experience with Product Management and Marketing.
                 <br>
                 I am also an ACM ICPC'18 Regionalist, a member of the Open Source Initiative (OSI), Royal Statistical Society (RSS) and also a Microsoft Innovative Educator.
               </p>
@@ -48,6 +50,7 @@
                 <br>My technical skills: Vue.js, Vuetify, Vuex, Vue-router, ES6, HTML5, CSS3, Firebase, Netlify, Docker, REST apis, C++, Python.
               </p>
               <p>If you are looking for someone who can design and develop software, guide and manage your team, please drop me a message.</p>
+            </div>
           </div>
           <a href="mailto:mailatharvasharma@gmail.com"><v-icon color="yellow" class="pa-2">fa-envelope</v-icon></a>
           <a href="tel:+8989458478"><v-icon color="yellow" class="pa-2">fa-phone </v-icon></a>

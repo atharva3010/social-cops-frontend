@@ -3,12 +3,12 @@
     <v-container-fluid>
       <v-layout wrap>
         <v-flex>
-          <authentication></authentication>
+          <greetings></greetings>
           <v-toolbar flat app dark inverted-scroll dense color="#212121">
             <v-avatar size="40px"><img src="./assets/25.jpg"></v-avatar>
             <v-toolbar-title class="font-weight-regular" id="yellow">Sachin Tendulkar</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer" style="color:yellow;"></v-toolbar-side-icon>
+            <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
             <v-toolbar-items class="hidden-sm-and-down">
               <v-btn flat id="yellow" href="#">Home</v-btn>
               <v-btn flat id="yellow" href="#body">Analysis</v-btn>
@@ -19,7 +19,7 @@
             <v-avatar size="40px"><img src="./assets/25.jpg"></v-avatar>
             <v-toolbar-title class="font-weight-regular" id="yellow">Sachin Tendulkar</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+            <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer" style="color:yellow;"></v-toolbar-side-icon>
             <v-toolbar-items class="hidden-sm-and-down">
               <v-btn flat id="yellow" href="#">Home</v-btn>
               <v-btn flat id="yellow" href="#body">Analysis</v-btn>
@@ -47,12 +47,12 @@
 </template>
 
 <script>
-import authentication from './components/Authentication'
+import greetings from './components/Greetings'
 import home from './components/Home'
 export default {
   name: 'app',
   components: {
-    authentication,
+    greetings,
     home
   },
   data() {
