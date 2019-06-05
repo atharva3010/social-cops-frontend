@@ -13,7 +13,7 @@
             <v-flex wrap>
               <v-text class="font-weight-medium font-italic font-weight-light headline hidden-sm-and-down" id="bottom">Wikipedia says, “Sachin Tendulkar is a former Indian cricketer, widely regarded to be the greatest cricketer of all time.”</v-text>
             </v-flex>
-            <v-btn id="knowMore" round large outline color="yellow" bottom href="#body">Prove This</v-btn>
+            <v-btn id="proveThis" round large outline color="yellow" bottom href="#body">Prove This</v-btn>
           </div>
         </v-flex>
         <v-layout column wrap id="body">
@@ -35,10 +35,10 @@
         </v-layout>
         <div id="about" style="padding:20px;">
           <div>
-            <div style="float:right; clear:none; padding:20px;" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="atharva-sharma-802181162"><a class="LI-simple-link" href='https://in.linkedin.com/in/atharva-sharma-802181162?trk=profile-badge'>Atharva Sharma</a></div>
             <h1 class="display-3">
               About Me: 
             </h1>
+            <div style="float:right; clear:none; padding:20px;" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="atharva-sharma-802181162"><a class="LI-simple-link" href='https://in.linkedin.com/in/atharva-sharma-802181162?trk=profile-badge'>Atharva Sharma</a></div>
             <div>
               <p>
                 I am <b>Atharva Sharma</b>, a Software developer having experience with Product Management and Marketing.
@@ -176,7 +176,7 @@ d3.csv('./sachin.csv')
     font-size: 80px;
     width: 100%;
 }
-#knowMore{
+#proveThis{
   transform: translate(-50%, -50%);
   position: absolute;
 }
