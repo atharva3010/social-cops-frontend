@@ -35,10 +35,10 @@
         </v-layout>
         <div id="about" style="padding:20px;">
           <div>
+            <div id="linkedin" class="LI-profile-badge hidden-sm-and-down"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="atharva-sharma-802181162"><a class="LI-simple-link" href='https://in.linkedin.com/in/atharva-sharma-802181162?trk=profile-badge'>Atharva Sharma</a></div>
             <h1 class="display-3">
               About Me: 
             </h1>
-            <div style="float:right; clear:none; padding:20px;" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="atharva-sharma-802181162"><a class="LI-simple-link" href='https://in.linkedin.com/in/atharva-sharma-802181162?trk=profile-badge'>Atharva Sharma</a></div>
             <div>
               <p>
                 I am <b>Atharva Sharma</b>, a Software developer having experience with Product Management and Marketing.
@@ -222,6 +222,10 @@ d3.csv('./sachin.csv')
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+#linkedin{
+  float:right; 
+  clear:none;
 }
 #top{
   position: absolute;
