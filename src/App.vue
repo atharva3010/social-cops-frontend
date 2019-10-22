@@ -3,7 +3,6 @@
     <v-container-fluid>
       <v-layout wrap>
         <v-flex>
-          <greetings></greetings>
           <v-toolbar flat app dark inverted-scroll dense color="#212121">
             <v-avatar size="40px"><img src="./assets/25.jpg"></v-avatar>
             <v-toolbar-title class="font-weight-regular" id="yellow">Sachin Tendulkar</v-toolbar-title>
@@ -47,12 +46,10 @@
 </template>
 
 <script>
-import greetings from './components/Greetings'
 import home from './components/Home'
 export default {
   name: 'app',
   components: {
-    greetings,
     home
   },
   data() {
